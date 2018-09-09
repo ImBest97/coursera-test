@@ -10,19 +10,21 @@ h1 {
 
 #box{
 	display:block;
-	width:60%;
+	width:100%;
 	margin-right: auto;
     margin-left: auto;
 }
 
 
 div > h2 {
+	width:25%;
 	margin:0;
 	float:right;
 	border:.5px solid black;
 	background-color: lightpink;
 	padding:3px;
 	color:white;
+	text-align: center;
 }
 
 #head1{
@@ -41,7 +43,7 @@ div > h2 {
 div > p {
 	
     width: 90%;
-    padding-top:30px;
+    padding:20px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -49,7 +51,7 @@ div > p {
 #article1, #article2, #article3{
 	margin-right: auto;
 	margin-left:auto;
-	margin-bottom: 10%;
+	margin-bottom:20px;
 	width:100%;
 	background-color: gray;
 	border:.5px solid black;
@@ -62,8 +64,8 @@ div > p {
 @media (min-width: 992px){
 	#article1, #article2, #article3{
 	float:left;
-	margin-right: 3%;
-	margin-left:auto;
+	margin-right:1.5%;
+	margin-left:1.5%;
 	width:30%;
 	background-color: gray;
 	border:.5px solid black;
@@ -76,8 +78,8 @@ div > p {
 @media (min-width: 768px) and (max-width:991px){
 	#article1{
 	float:left;
-	margin-right: 3%;
-	margin-left:auto;
+	margin-right:1.5%;
+	margin-left:1.5%;
 	width:47%;
 	background-color: gray;
 	border:.5px solid black;
@@ -86,8 +88,8 @@ div > p {
 
 	#article2{
 	float:left;
-	margin-right:auto;
-	margin-left:3%;
+	margin-right:1.5%;
+	margin-left:1.5%;
 	width:47%;
 	background-color: gray;
 	border:.5px solid black;
@@ -96,9 +98,9 @@ div > p {
 
 	#article3{
 	float:left;
-	margin-right: auto;
-	margin-left:auto;
-	width:100%;
+	margin-right:1.5%;
+	margin-left:1.5%;
+	width:97%;
 	background-color: gray;
 	border:.5px solid black;
 	}
